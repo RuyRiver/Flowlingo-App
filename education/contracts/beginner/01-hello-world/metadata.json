@@ -1,0 +1,107 @@
+{
+  "name": "HelloWorld",
+  "level": "beginner",
+  "concepts": [
+    "Contract Structure",
+    "Variables",
+    "Functions",
+    "Events",
+    "Basic Types",
+    "Initialization"
+  ],
+  "dependencies": [],
+  "estimatedTime": 30,
+  "prerequisites": [],
+  "tags": [
+    "hello-world",
+    "basics",
+    "introduction",
+    "variables",
+    "functions",
+    "events"
+  ],
+  "description": "Implementación básica de un contrato Hello World que demuestra los conceptos fundamentales de Cadence",
+  "learningObjectives": [
+    "Entender la estructura básica de un contrato de Cadence",
+    "Aprender a declarar variables públicas y privadas",
+    "Comprender el uso de la función init() para inicialización",
+    "Implementar funciones públicas que retornan valores",
+    "Usar eventos para notificar cambios de estado",
+    "Manejar tipos básicos: String, Int, Bool",
+    "Entender el concepto de 'self' en contratos",
+    "Aprender la sintaxis básica de Cadence"
+  ],
+  "keyFeatures": [
+    "Variable de estado pública (greeting)",
+    "Función de inicialización",
+    "Funciones de lectura y escritura",
+    "Emisión de eventos",
+    "Operaciones con strings",
+    "Operaciones matemáticas básicas",
+    "Uso de condicionales"
+  ],
+  "difficulty": 1,
+  "category": "introduction",
+  "flowConcepts": [
+    "Contract deployment",
+    "State variables",
+    "Public functions",
+    "Events",
+    "Transactions vs Scripts"
+  ],
+  "cadenceConcepts": [
+    "access(all) keyword",
+    "var vs let",
+    "String type",
+    "Int type",
+    "Bool type",
+    "Function syntax",
+    "Event definition",
+    "emit statement",
+    "self reference",
+    "init function"
+  ],
+  "nextSteps": [
+    "02-simple-storage",
+    "03-basic-counter",
+    "04-simple-calculator"
+  ],
+  "files": {
+    "contract": "contract.cdc",
+    "readme": "README.md",
+    "commonErrors": "COMMON_ERRORS.md",
+    "testResults": "TEST_RESULTS.md",
+    "transactions": [
+      "transactions/setup.cdc",
+      "transactions/change_greeting.cdc",
+      "transactions/personalized_greeting.cdc"
+    ],
+    "scripts": [
+      "scripts/get_greeting.cdc",
+      "scripts/get_personalized_greeting.cdc",
+      "scripts/test_functions.cdc"
+    ],
+    "tests": [
+      "tests/contract_test.cdc"
+    ]
+  },
+  "version": "1.0.0",
+  "author": "FlowLingo",
+  "license": "MIT",
+  "tested": true,
+  "testResults": {
+    "deploymentAddress": "0xf8d6e0586b0a20c7",
+    "network": "emulator",
+    "lastTested": "2025-07-15",
+    "allTestsPassed": true,
+    "validatedFeatures": [
+      "Contract deployment",
+      "State variables",
+      "Public functions",
+      "Event emission",
+      "Transactions",
+      "Scripts",
+      "Modern Cadence syntax"
+    ]
+  }
+}

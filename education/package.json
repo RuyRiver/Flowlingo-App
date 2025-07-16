@@ -1,0 +1,36 @@
+{
+  "name": "flowlingo-contract-library",
+  "version": "1.0.0",
+  "description": "Comprehensive Cadence smart contract library for FlowLingo educational platform",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node scripts/validate-contracts.js",
+    "validate:beginner": "node scripts/validate-contracts.js --level=beginner",
+    "validate:intermediate": "node scripts/validate-contracts.js --level=intermediate", 
+    "validate:advanced": "node scripts/validate-contracts.js --level=advanced",
+    "validate:fluent": "node scripts/validate-contracts.js --level=fluent",
+    "test": "flow test",
+    "build": "flow build",
+    "deploy:emulator": "flow project deploy --network=emulator",
+    "deploy:testnet": "flow project deploy --network=testnet"
+  },
+  "keywords": [
+    "flow",
+    "cadence",
+    "smart-contracts",
+    "blockchain",
+    "education",
+    "flowlingo"
+  ],
+  "author": "FlowLingo Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowlingo/contract-library"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

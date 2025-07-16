@@ -1,0 +1,51 @@
+{
+  "name": "ContractName",
+  "level": "beginner|intermediate|advanced|fluent",
+  "concepts": [
+    "Concept1",
+    "Concept2",
+    "Concept3"
+  ],
+  "dependencies": [
+    "DependencyContract1",
+    "DependencyContract2"
+  ],
+  "estimatedTime": 30,
+  "prerequisites": [
+    "PrerequisiteContract1",
+    "PrerequisiteContract2"
+  ],
+  "tags": [
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "description": "Brief description of what the contract does",
+  "learningObjectives": [
+    "Learning objective 1",
+    "Learning objective 2",
+    "Learning objective 3"
+  ],
+  "difficulty": {
+    "conceptual": 1,
+    "technical": 1,
+    "practical": 1
+  },
+  "resources": [
+    {
+      "type": "documentation",
+      "title": "Flow Documentation",
+      "url": "https://docs.onflow.org/"
+    },
+    {
+      "type": "tutorial",
+      "title": "Related Tutorial",
+      "url": "https://example.com/tutorial"
+    }
+  ],
+  "version": "1.0.0",
+  "author": "FlowLingo Team",
+  "license": "MIT",
+  "created": "2025-01-15",
+  "updated": "2025-01-15"
+}
